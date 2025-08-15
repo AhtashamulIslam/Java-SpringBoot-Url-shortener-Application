@@ -10,6 +10,7 @@ const LandingPage = () => {
   const dashBoardNavigateHandler = () => {
       if(token)
         navigate("/dashboard")
+       else navigate("/login")
   };
   return (
     <div className="min-h-[calc(100vh-64px)]  lg:px-14 sm:px-8 px-4">
